@@ -7,7 +7,7 @@ function insert(num) {
 
 function cleanMas() {
     buf.splice(0, buf.length);
-    index = -1, indexClose = -1, indexOpen = -1;
+    index = -1,  indexClose = -1,   indexOpen = -1;
 }
 
 function clean() {
@@ -26,6 +26,7 @@ function back() {
     }
     if (last == ')') {
         indexClose--;
+
     }
 }
 
@@ -48,8 +49,11 @@ function equal() {
 }
 
 let arr = ['+', '-', '*', '/', 'e', '.'];
+
 let buf = [];
+
 let  index = -1, indexOpen = -1, indexClose = -1;
+
 
 function exception(buf, num) {
     index++;
