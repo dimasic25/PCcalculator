@@ -37,7 +37,7 @@ function equal() {
         clean();
     }
 
-    if (arr.includes(buf[index-1])) {
+    if (arr.includes(buf[index])) {
         alert('Error! Выражение не может оканчиваться на знак');
         clean();
     }
